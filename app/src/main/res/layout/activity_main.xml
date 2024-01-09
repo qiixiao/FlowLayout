@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第一部分" />
+
+    <com.dd.flowlayout.FlowLayout
+        android:id="@+id/flow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAAAAA">
+
+        <TextView
+            style="@style/text"
+            android:text="你好" />
+
+        <TextView
+            style="@style/text"
+            android:text="Hello Android" />
+
+        <TextView
+            style="@style/text"
+            android:text="Hello Jetpack" />
+
+        <TextView
+            style="@style/text"
+            android:text="Hello" />
+
+        <TextView
+            style="@style/text"
+            android:text="Android" />
+
+
+    </com.dd.flowlayout.FlowLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第二部分" />
+
+    <com.dd.flowlayout.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAAAAA">
+
+        <TextView
+            style="@style/text"
+            android:text="你好" />
+
+        <TextView
+            style="@style/text"
+            android:text="Hello Android" />
+
+        <TextView
+            style="@style/text"
+            android:text="Hello Jetpack" />
+
+        <TextView
+            style="@style/text"
+            android:text="Hello" />
+
+        <TextView
+            style="@style/text"
+            android:text="Android" />
+    </com.dd.flowlayout.FlowLayout>
+
+</LinearLayout>
