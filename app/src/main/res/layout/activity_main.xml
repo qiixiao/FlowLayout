@@ -13,7 +13,7 @@
 
     <com.dd.flowlayout.FlowLayout
         android:id="@+id/flow_layout"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#AAAAAA">
 
@@ -30,12 +30,22 @@
             android:text="Hello Jetpack" />
 
         <TextView
-            style="@style/text"
-            android:text="Hello" />
+        style="@style/text"
+        android:text="HarmonyOS" />
 
         <TextView
             style="@style/text"
-            android:text="Android" />
+            android:text="遥遥领先" />
+
+        <TextView
+            android:id="@+id/viewTestId"
+            style="@style/text"
+            android:text="Hello"
+            android:background="#F00"/>
+
+        <TextView
+            style="@style/text"
+            android:text="Android is Invented by Google" />
 
 
     </com.dd.flowlayout.FlowLayout>
@@ -46,7 +56,7 @@
         android:text="第二部分" />
 
     <com.dd.flowlayout.FlowLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#AAAAAA">
 
